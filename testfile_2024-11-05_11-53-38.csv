@@ -1,0 +1,5 @@
+scenarios,1
+seeds per scenario,20
+notes,wifi_1ch. 6-100-2
+arg_list[0],"{'simulationTime': 15, 'seed': 1, 'csvFileName': './scratch/testfile_2024-11-05_11-53-38.csv', 'band': 'AX_5', 'phyModel': 'spectrum', 'constantMcs': 1, 'channelNumber': 50, 'channelWidth': 160, 'mcs': 5, 'gi': 1600, 'txPower': 20, 'nStaA': 6, 'nStaB': 100, 'nStaC': 2}"
+arg_list[19],"{'simulationTime': 15, 'seed': 20, 'csvFileName': './scratch/testfile_2024-11-05_11-53-38.csv', 'band': 'AX_5', 'phyModel': 'spectrum', 'constantMcs': 1, 'channelNumber': 50, 'channelWidth': 160, 'mcs': 5, 'gi': 1600, 'txPower': 20, 'nStaA': 6, 'nStaB': 100, 'nStaC': 2}"
