@@ -1,4 +1,4 @@
-#Enhanced-Mobile-Broadband-eMBB-Network-Slicing
+Enhanced-Mobile-Broadband-eMBB-Network-Slicing
 
 INTRODUCTION
 
@@ -23,6 +23,7 @@ To launch a Python script, for example run_wifi.py, open a terminal in the scrat
 
 python ./run_wifi.py
 Please, note that all the Python scripts contained in this repository are written in Python 2.7. Thus, you will need this version to run them.
+ Import the Necessary Modules in the Python Script and Run the Network Slicing Simulation in NS3.
 
 RESULT
 
