@@ -16,18 +16,13 @@ We can find detailed instructions on how to use our framework to validate your n
 •	Install the ns-3 network simulator in your machine following the instructions from the main website nsnam.org
 •	Download this repository as a .zip and extract it.
 •	Paste its content inside the scratch directory, which is inside the ns-3 release directory, automatically created upon the ns-3 installation.
-Configure Simulation Parameters:
-•	The project allows customization of simulation parameters, such as the number of stations, transmission power, simulation time, frequency band (e.g., AX_5), and more. These parameters will be used for running the simulation to model how 5G network slicing works within a Wi-Fi network.
-•	The repository likely provides configuration or script files for the simulation setup. Review the README or script files to ensure you adjust parameters like the number of stations, channels, or simulation duration according to your needs.
-Run Simulation:
-•	After adjusting the parameters, run the simulation by invoking the corresponding NS3 script. This might look like:
-./waf --run <simulation_script_name>
-•	The simulation will execute based on the provided parameters.
-Result Generation:
-•	 During the execution, monitor the terminal for progress updates or errors. Ensure that there are no dependency issues or missing configuration files.
-•	Once the simulation completes, the output is typically written to a CSV or log file, detailing metrics such as throughput, latency, or the performance of the network slices under different conditions.
-Executing this repository involves understanding the network simulation process in NS3, modifying simulation configurations, running the script, and analyzing the results for insights related to 5G network slicing and its application to Wi-Fi networks. Always refer to the repository’s documentation for specific steps and parameters.
 
+Alternatively, you can download only the specific files you want to use and paste them in the scratch directory. Everything is now ready.
+
+To launch a Python script, for example run_wifi.py, open a terminal in the scratch directory and type:
+
+python ./run_wifi.py
+Please, note that all the Python scripts contained in this repository are written in Python 2.7. Thus, you will need this version to run them.
 
 RESULT
 
